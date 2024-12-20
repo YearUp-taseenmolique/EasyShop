@@ -60,7 +60,7 @@ Bug 2: Product Duplication During updates
 
 ## - Used Postman to:
 - test API endpoints for categories and products.
-- Validate role-based accesscontrol for restricted operations.
+- Validate role-based access control for restricted operations.
 - Simulate various query parameters for product search and confirm results.
 
 ## - Verified successful fixes for reported bugs.
