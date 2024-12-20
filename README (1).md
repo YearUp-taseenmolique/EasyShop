@@ -46,7 +46,7 @@ Bug 1: Product Search Incorrect Results
 Bug 2: Product Duplication During updates
 - Identified the issue where updates to products were inserting new rows instead of modifying existing ones.
 - Updated the ProductController's updateProduct method:
-    - Replaced the create cal with the correct update method in the DAO.
+    - Replaced the create call with the correct update method in the DAO.
     - Ensured the update method in MySqlProductDao modifies the record instead of inserting a new one.
     
 
